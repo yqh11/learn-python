@@ -1288,7 +1288,7 @@ st = {(1, 2), 3, "A"}
       * 可能多次调用``char_data``事件，需要自己合并
     * 优先考虑SAX
 
-* HTML Parser
+* HTML Parser 如果我们要编写一个搜索引擎，第一步是用爬虫把目标网站的页面抓下来，第二步就是解析该HTML页面，看看里面的内容到底是新闻、图片还是视频。
 
   * ```handle_starttag`` ``handle_endtag`` ``handle_startendtag`` ``handle_data`` ``handle_comment`` ``handle_entityref`` ``handle_charref``
 
